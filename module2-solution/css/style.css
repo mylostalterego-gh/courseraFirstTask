@@ -40,12 +40,13 @@ p {
     margin-top: 100px;
 }
 .examples__item {
-    background: #000;
-    color: #fff;
+    background: transparent;
+    color: #000;
     position: relative;
     width: 90%;
     margin-bottom: 20px;
     padding: 70px 20px 20px;
+    border: 1px solid #000;
 }
 .examples__item:last-child {
     margin-right: 0;
